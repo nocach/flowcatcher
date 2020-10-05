@@ -128,6 +128,28 @@ a {
   @include small {
     padding: 2rem 1rem;
   }
+
+  .flex-con {
+      display: flex;
+      justify-content: center;
+
+      img {
+        @include large {
+          height: 115px;
+        }
+
+        @include medium {
+          height: 70px;
+        }
+
+        @include small {
+          height: 50px;
+        }
+      }
+      .item2 {
+      }
+  }
+
 }
 
 .project-name {
@@ -136,7 +158,7 @@ a {
   color: $primary0;
 
   @include large {
-    font-size: 3.25rem;
+    font-size: 4rem;
   }
 
   @include medium {
@@ -149,13 +171,15 @@ a {
 }
 
 .project-tagline {
-  margin-bottom: 2rem;
+  margin: 0px;
   font-variant: small-caps;
   color: $primary8;
+  position: relative;
 
   @include large {
     font-size: 1,625rem;
     letter-spacing: 0.3rem;
+    top: -20px;
   }
 
   @include medium {
@@ -164,6 +188,7 @@ a {
 
   @include small {
     font-size: 1rem;
+    top: -15px;
   }
 }
 
