@@ -155,6 +155,7 @@ a {
 
   @include large {
     font-size: 1,625rem;
+    letter-spacing: 0.3rem;
   }
 
   @include medium {
