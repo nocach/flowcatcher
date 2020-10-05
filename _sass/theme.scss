@@ -165,12 +165,16 @@ a {
   }
 }
 
+.regular {
+    font-weight:400;
+}
+
 .bold {
-    weight:700;
+    font-weight:700;
 }
 
 .extrabold {
-    weight:800;
+    font-weight:800;
 }
 
 .main-content {
