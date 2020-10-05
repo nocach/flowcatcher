@@ -133,6 +133,7 @@ a {
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem;
+  color: $primary0;
 
   @include large {
     font-size: 3.25rem;
@@ -150,6 +151,7 @@ a {
 .project-tagline {
   margin-bottom: 2rem;
   font-variant: small-caps;
+  color: $primary8;
 
   @include large {
     font-size: 1.25rem;
