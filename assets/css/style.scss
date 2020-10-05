@@ -1,15 +1,4 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
-$primary5: #046b99;
-$primary2: #0b3f77;
-$primary6: #98c0e5;
-
-$header-bg-color: $primary5;
-
-.page-header {
-  background-color: $header-bg-color;
-  background-image: linear-gradient(120deg, $primary6, $primary5, $primary2);
-}
+@import "theme";
