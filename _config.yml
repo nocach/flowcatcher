@@ -23,7 +23,7 @@ github_username:  nocach
 
 # Build settings
 markdown: kramdown
-theme: theme
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
