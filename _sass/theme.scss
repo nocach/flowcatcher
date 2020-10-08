@@ -64,9 +64,9 @@ a {
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
+  color: $primary8;
+  background-color: rgba(152, 192, 229, 0.7);
+  border-color: $primary8;
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
@@ -76,6 +76,10 @@ a {
     background-color: $secondary6;
     border-color: $primary8;
     color: $secondary0;
+     &:hover {
+        background-color: $secondary5;
+        color: $secondary0;
+      }
   }
 
   &:hover {
@@ -90,11 +94,11 @@ a {
   }
 
   @include large {
-    padding: 0.75rem 1rem;
+    padding: 0.5rem 1.4rem;
   }
 
   @include medium {
-    padding: 0.6rem 0.9rem;
+    padding: 0.5rem 1.2rem;
     font-size: 0.9rem;
   }
 
@@ -164,6 +168,21 @@ a {
           position: relative;
           top: -6px;
       }
+  }
+
+  .flex-con-btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        @include small {
+             flex-direction: row;
+        }
+
+        .item3{
+             padding: 1.25rem 1.2rem;
+        }
   }
 
 }
