@@ -509,6 +509,7 @@ a {
 
     .item1 {
         width: 200px;
+        min-width: 200px;
     }
     .item2{
         min-height: 200px;
@@ -533,6 +534,7 @@ a {
     }
     .item2 {
             width: 200px;
+            min-width: 200px;
         }
   }
 }
