@@ -1,5 +1,6 @@
 //colors
 $primary0: #071b2b;
+$primary1: #092b4c;
 $primary2: #0b3f77;
 $primary5: #046b99;
 $primary6: #98c0e5;
@@ -20,8 +21,8 @@ $header-bg-color: $primary5 !default;
 $header-bg-color-secondary: #155799 !default;
 
 // Text
-$section-headings-color: #159957 !default;
-$body-text-color: #606c71 !default;
+$section-headings-color: $primary1 !default;
+$body-text-color: $primary2 !default;
 $body-link-color: #1e6bb8 !default;
 $blockquote-text-color: #819198 !default;
 
